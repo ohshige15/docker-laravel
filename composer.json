@@ -58,6 +58,8 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ]
+        ],
+        "cs": "phpcs",
+        "cs-fix": "phpcbf"
     }
 }
