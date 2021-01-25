@@ -60,6 +60,7 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
+        "test": "phpunit",
         "cs": "phpcs",
         "cs-fix": "phpcbf",
         "analyse": "phpstan analyse -c phpstan.neon --no-progress --ansi",
