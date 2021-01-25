@@ -62,6 +62,10 @@
         ],
         "cs": "phpcs",
         "cs-fix": "phpcbf",
-        "analyse": "phpstan analyse -c phpstan.neon --no-progress --ansi"
+        "analyse": "phpstan analyse -c phpstan.neon --no-progress --ansi",
+        "qa": [
+            "phpcs",
+            "phpstan analyse -c phpstan.neon --no-progress --ansi"
+        ]
     }
 }
